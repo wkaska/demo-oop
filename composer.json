@@ -1,0 +1,23 @@
+{
+    "name": "wkaska/demo-oop",
+    "description": "Description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wkaska",
+            "email": "nestenic000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+
+}
