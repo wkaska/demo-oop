@@ -11,7 +11,7 @@ use Src\View;
 
 class Site
 {
-    public function index(): string
+    public function index(Request $request): string
     {
         $posts = Post::all();
         return (new View())->render('site.post', ['posts' => $posts]);
@@ -19,7 +19,7 @@ class Site
 
     public function hello(): string
     {
-        return new View('site.hello', ['message' => 'hello working!!!']);
+        return new View('site.hello', ['message' => 'Добро пожаловать - Welcome']);
     }
 
     public function signup(Request $request): string
@@ -29,10 +29,14 @@ class Site
             $validator = new Validator($request->all(), [
                 'name' => ['required'],
                 'login' => ['required', 'unique:users,login'],
-                'password' => ['required']
+                'password' => ['required'],
+                'surname' => ['required', 'nameVal'],
+                'address' => ['required', 'addressCheck'],
+                'phone_number' => ['phoneNumber', 'required'],
             ], [
                 'required' => 'Поле :field пусто',
                 'unique' => 'Поле :field должно быть уникально'
+
             ]);
 
             if($validator->fails()){

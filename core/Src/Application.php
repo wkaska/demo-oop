@@ -42,9 +42,9 @@ class Application
                 return $this->route;
             case 'auth':
                 return $this->auth;
-            default:
-                throw new Error('Accessing a non-existent property');
+
         }
+        throw new Error('Accessing a non-existent property');
     }
 
     private function dbRun()

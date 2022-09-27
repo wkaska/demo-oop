@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: lightsalmon;
+    background-color: #fff1e2;
+}
+
+header > nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    flex-direction: row;
+    color: lightsalmon;
+    font-weight: 600;
+    width: 100%;
+    height: 100px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+header > nav > a {
+    display: flex;
+    flex-grow: 0.5;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: lightsalmon;
+
+}
+.bilet {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #8BC6EC;
+}
+
+h2 {
+    display: flex;
+    color: #8BC6EC;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.view-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.view-form > form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid coral;
+}
+
+.view-form > form > p {
+    margin: 10px;
+    color: #8BC6EC;
+}
+
+.view-form > form > p > input {
+    border: none;
+    border-bottom: 1px solid coral;
+}
+
+.view-form > form > button {
+    background-color: #8BC6EC;;
+    border-radius: 1em;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+
+}
+
+.view-edit{
+    display: flex;
+    justify-content: center;
+}
+
+.view-books-reader {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.view-books-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    color: #8BC6EC;
+}
+.view-books {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 1px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+    padding: 5px 10px 5px 10px;
+}
+
+.view-books-id {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.view-books-other {
+    width: 70%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-showUsers-forAdmin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-showUsers-forAdmin > div {
+    color: #8BC6EC;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.view-showUsers-forAdmin > div > p {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 10%;
+
+}
+
+.view-showUsers-forAdmin > a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    margin-top: 1px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.view-showUsers-forAdmin > a > div {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 10%;
+}
+
+.view-showUsers-forAdmin > p {
+    flex-direction: row;
+    flex-grow: 1;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.view-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-profile > div {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    margin-top: 1px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+.view-profile > div > p {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 10%;
+
+}
+
+.view-profile > div > a{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 10%;
+}
+
+.view-profile > div > form{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 10%;
+}
