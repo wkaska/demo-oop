@@ -63,6 +63,11 @@ class Route
         return $this->prefix . $url;
     }
 
+    public function getPrefix(): string
+    {
+        return $this->prefix;
+    }
+
     //Добавление middlewares для текущего маршрута
     public function middleware(...$middlewares): self
     {
@@ -94,7 +99,7 @@ class Route
             case Dispatcher::FOUND:
                 $handler = $routeInfo[1];
                 $vars = array_values($routeInfo[2]);
-                //Вызываем обработку всех Middleware
+//Вызываем обработку всех Middleware
                 $vars[] = Middleware::single()->go($httpMethod, $uri, new Request());
                 $class = $handler[0];
                 $action = $handler[1];
@@ -102,5 +107,4 @@ class Route
                 break;
         }
     }
-
 }
