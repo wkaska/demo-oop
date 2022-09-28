@@ -10,11 +10,15 @@ body {
     color: lightsalmon;
     background-color: #fff1e2;
 }
+<<<<<<< HEAD
 a {
     text-decoration: none;
     list-style: none;
     text-shadow: 1px 1px black;
 }
+=======
+
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 header > nav {
     display: flex;
     font-size: 30px;
@@ -28,6 +32,7 @@ header > nav {
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 
 }
+<<<<<<< HEAD
 img{
     width: 50px;
     height: 50px;
@@ -37,6 +42,9 @@ img{
     width: 50px;
     height: 50px;
 }
+=======
+
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 header > nav > a {
     display: flex;
     flex-grow: 0.5;
@@ -57,18 +65,25 @@ h1 {
     justify-content: center;
     margin-top: 10px;
     color: #8BC6EC;
+<<<<<<< HEAD
     text-shadow: 1px 1px black;
+=======
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 }
 
 h2 {
     display: flex;
     color: #8BC6EC;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: 15px;
     font-weight: bolder;
     font-size: 32px;
     font-style: italic;
     text-shadow: 1px 1px black;
+=======
+    margin-top: 10px;
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 }
 
 .view-form {
@@ -83,7 +98,10 @@ h2 {
     align-items: center;
     justify-content: center;
     border: 1px solid coral;
+<<<<<<< HEAD
     border-radius: 30px;
+=======
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 }
 
 .view-form > form > p {
@@ -164,6 +182,7 @@ label {
     height: 40px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
 
     width: 50%;
     text-decoration: none;
@@ -171,6 +190,13 @@ label {
     flex-grow: 1;
 
     border: 1px solid coral;
+=======
+    border: 3px solid black;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
     border-radius: 30px;
     padding: 5px 10px 5px 10px;
     margin: 20px 0px 20px 0px;
@@ -188,6 +214,7 @@ label {
     height: 40px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     /*border: 3px solid black;*/
     margin-top: 15px;
     width: 50%;
@@ -196,6 +223,14 @@ label {
     flex-grow: 1;
     /*border-radius: 30px;*/
     border: 1px solid coral;
+=======
+    border: 3px solid black;
+    margin-top: 1px;
+    width: 90%;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 1;
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
     border-radius: 30px;
     padding: 10px 10px 10px 10px;
 }
@@ -253,7 +288,10 @@ label {
     justify-content: center;
     flex-grow: 1;
     width: 10%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
 }
 
 .view-profile > div > form{

@@ -19,7 +19,11 @@ class Site
 
     public function hello(): string
     {
+<<<<<<< HEAD
         return new View('site.hello', ['message' => 'Добро пожаловать - Welcome❤📖']);
+=======
+        return new View('site.hello', ['message' => 'Добро пожаловать - Welcome']);
+>>>>>>> 131b69bb3ea5a15ea0540cfd0f972307b8fd116b
     }
 
     public function signup(Request $request): string
