@@ -14,7 +14,12 @@ class User extends Model implements IdentityInterface
     protected $fillable = [
         'name',
         'login',
-        'password'
+        'password',
+        'surname',
+        'patronymic',
+        'isAdmin',
+        'address',
+        'phone_number',
     ];
 
     protected static function booted()
@@ -42,4 +47,8 @@ class User extends Model implements IdentityInterface
             'password' => md5($credentials['password'])])->first();
     }
 
+    public function isAdmin()
+    {
+        return $this->isAdmin === 1;
+    }
 }

@@ -2,6 +2,7 @@
 <h3><?= $message ?? ''; ?></h3>
 
 <h3><?= app()->auth->user()->name ?? ''; ?></h3>
+<div class="view-form">
 <?php
 if (!app()->auth::check()):
     ?>
@@ -11,4 +12,5 @@ if (!app()->auth::check()):
         <label>Пароль <input type="password" name="password"></label>
         <button>Войти</button>
     </form>
+</div>
 <?php endif;
